@@ -1,0 +1,241 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#MainPlot {
+	width: 100%;
+	height: 821px;
+}
+
+#Audience1 {
+	float: left;
+	width: 33%;
+	height: 100%;
+	padding: 12% 4.5% 5% 4.5%;
+}
+
+#Audience1 h1 {
+	font-size: 45px;
+}
+
+#Audience1 p {
+	font-size: 21px;
+	line-height: 50px;
+}
+
+#Stadium {
+	float: left;
+	width: 33%;
+	height: 100%;
+}
+
+#Protagonist {
+	float: left;
+	width: 100%;
+	height: 50%;
+	background-color: #bb843d;
+	color: white;
+	text-align: center;
+	padding: 12% 4.5% 5% 4.5%;
+}
+
+#Protagonist h1 {
+	font-size: 60px;
+}
+
+#Antagonist {
+	float: left;
+	width: 100%;
+	height: 50%;
+	background-color: #20baca;
+	color: white;
+	padding: 12% 6% 5% 6%;
+}
+
+#Antagonist h1 {
+	font-size: 40px;
+}
+
+#Antagonist p {
+	font-size: 21px;
+	line-height: 30px;
+}
+
+#Audience2 {
+	float: left;
+	width: 34%;
+	height: 100%;
+	background-image: url("../PICS/Runner.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#Audience3 {
+	margin-top: 50px;
+	width: 100%;
+	height: 120px;
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 25px;
+}
+
+#Audience1 button {
+	width: 200px;
+	height: 60px;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 32px;
+	background-color: #20baca;
+	border: none;
+}
+
+#Antagonist button {
+	width: 200px;
+	height: 60px;
+	color: #20baca;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 32px;
+	background-color: white;
+	border: none;
+}
+
+@media screen and (max-width: 800px) {
+#body {
+	
+}
+#MainPlot {
+	
+}
+
+#Audience1 {
+	width: 100%;
+	height: 70%;
+}
+
+#Audience1 h1 {
+	font-size: 40px;
+}
+
+#Audience1 p {
+	font-size: 19px;
+}
+
+#Stadium {
+	width: 50%;
+}
+
+#Protagonist {
+	padding: 20% 2% 5% 2%;
+}
+
+#Protagonist h1 {
+	font-size: 49.6px;
+}
+
+#Antagonist {
+	
+}
+
+#Antagonist h1 {
+	font-size: 30px;
+	padding-top: 5%;
+}
+
+#Antagonist p {
+	font-size: 16.6px;
+}
+
+#Audience2 {
+	width: 50%;
+}
+
+#Audience3 {
+	margin-top: 580px;
+}
+
+#Audience3 p {
+	font-size: 19px;
+}
+
+#Audience1 button {
+	
+}
+
+#Antagonist button {
+	
+}
+}
+
+@media screen and (max-width: 500px) {
+#body {
+	
+}
+#MainPlot {
+	
+}
+
+#Audience1 {
+	width: 100%;
+	height: 70%;
+}
+
+#Audience1 h1 {
+	
+}
+
+#Audience1 p {
+	font-size: 19px;
+}
+
+#Stadium {
+	width: 100%;
+}
+
+#Protagonist {
+	padding: 20% 2% 5% 2%;
+}
+
+#Protagonist h1 {
+	font-size: 49.6px;
+}
+
+#Antagonist {
+	
+}
+
+#Antagonist h1 {
+	
+}
+
+#Antagonist p {
+	font-size: 15px;
+}
+
+#Audience2 {
+	width: 100%;
+}
+
+#Audience3 {
+	margin-top: 1400px;
+}
+
+#Audience3 p {
+	font-size: 19px;
+}
+
+#Audience1 button {
+	
+}
+
+#Antagonist button {
+	
+}
+}
